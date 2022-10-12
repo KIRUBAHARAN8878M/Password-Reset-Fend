@@ -1,0 +1,36 @@
+body{
+  background-image: url("https://cdn.pixabay.com/photo/2015/05/26/23/52/technology-785742_960_720.jpg")  !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.transp{
+  backdrop-filter: blur(3px) !important;
+  background: rgba(225,225,225,0.1) !important;
+  color: white !important;
+  /* filter: drop-shadow(8px 8px 4px rgb(#ff0000)) !important; */
+box-shadow: 8px 8px 8px rgb(#f7b0b0) !important;
+}
+
+
+.input-error{
+    border: 1px solid red;
+  }
+
+  .myname {
+    background: linear-gradient(90deg, #56ccf2, #2f80ed);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hue 2s linear infinite;
+  }
+  @keyframes hue {
+    0% {
+      -webkit-filter: hue-rotate(0deg);
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      -webkit-filter: hue-rotate(1turn);
+      filter: hue-rotate(1turn);
+    }
+  }
