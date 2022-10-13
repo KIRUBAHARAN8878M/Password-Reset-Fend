@@ -1,3 +1,4 @@
 export const env ={
-    api :"http://localhost:7000"
+   api : "https://kiruba-password-reset.herokuapp.com"
+    // api :"http://localhost:7000"
     }
